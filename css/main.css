@@ -50,7 +50,7 @@ h1 {
     overflow: hidden;
 }
 
-@media only screen and (min-width: 22em) {
+@media only screen and (min-width: 25em) {
     
     .nav li {
         display: inline-block;
@@ -63,7 +63,7 @@ h1 {
         
 }
 
-@media only screen and (min-width: 50em) {
+@media only screen and (min-width: 38em) {
     
     .nav {
         float: left;
@@ -74,8 +74,10 @@ h1 {
         margin: 0;
     }
     
+    
 }
 
+@media only screen and (min-width: 60em) {
 
 
 
