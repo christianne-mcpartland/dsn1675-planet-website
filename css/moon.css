@@ -29,15 +29,15 @@ img {
   display: block;
   width: 100%;
 }
-
-a {
-    text-decoration: none;
-    color: #0074D9;
+    
+h1 {
+    margin: 0;
+    text-align: center;
 }
 
-h1 {
-    text-align: center;
+h3 {
     margin: 0;
+    padding-top: .5rem;
 }
 
 .nav {
@@ -45,25 +45,39 @@ h1 {
     list-style-type: none;
 }
 
-.grey {
+.nav a,
+.nav a:visited,
+.nav a:active {
+    display: block;
+    text-align: inline-block;
+    color: #0074D9;
+    text-decoration: none;
+}
+    
+.backgroundgrey {
     background-color: #ccc;
     overflow: hidden;
 }
 
-@media only screen and (min-width: 25em) {
+.backgroundlightgrey {
+    background-color: #e2e2e2;
+    overflow: hidden;
+}
+
+@media only screen and (min-width: 22em) {
+
+    .nav {
+        text-align: center;
+    }
     
     .nav li {
         display: inline-block;
         border: 0;
     }
     
-    .nav {
-        text-align: center;
-    }
-        
 }
 
-@media only screen and (min-width: 38em) {
+@media only screen and (min-width: 50em) {
     
     .nav {
         float: left;
@@ -71,20 +85,6 @@ h1 {
     
     h1 {
         float: left;
-        margin: 0;
     }
         
 }
-
-@media only screen and (min-width: 60em) {
-
-
-
-
-
-
-
-
-
-
-
