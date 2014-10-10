@@ -41,10 +41,7 @@ h1 {
     margin: 0;
 }
 
-.nav {
-    padding: 0;
-    list-style-type: none;
-}
+
 
 .grey {
     background-color: #ccc;
@@ -54,6 +51,35 @@ h1 {
 .lightgrey {
     background-color: #e2e2e2;
     text-align: center;
+}
+
+.lightestg {
+    background-color: #efefef;
+}
+
+.leftaligngrey {
+    background-color: #e2e2e2;
+    text-align: left;
+}
+
+.footer {
+    overflow: hidden
+}
+
+.nav {
+    padding: 0;
+    list-style-type: none;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #0074D9;
+    display: block;
+}
+
+.nav a:hover {
+    background-color: #0074D9;
+    color: white;
 }
 
 
