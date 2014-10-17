@@ -55,6 +55,7 @@ h1 {
 
 .lightestg {
     background-color: #efefef;
+    padding: 2rem;
 }
 
 .leftaligngrey {
@@ -63,7 +64,7 @@ h1 {
 }
 
 .footer {
-    overflow: hidden
+    overflow: hidden;
 }
 
 .nav {
@@ -106,12 +107,77 @@ h1 {
         float: left;
         margin: 0;
     }
+    
+    .footer .nav {
+        float: right;
+    }
         
 }
 
 @media only screen and (min-width: 60em) {
 
+    html {
+        font-size: 110%;
+    }
+    
+    .spaceafter {
+        padding-left: 2em;
+    }
+    
+    dl {
+  margin: 0;
+  overflow: hidden;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
 
+dt {
+  clear: left;
+  float: left;
+  margin: 0;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  width: 8em;
+}
+
+dd {
+  float: left;
+  margin: 0;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+  
+}
+
+@media only screen and (min-width: 60em) {
+    
+    html {
+        font-size: 130%;
+    }
+}
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 
 
 
