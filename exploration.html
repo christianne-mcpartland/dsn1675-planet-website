@@ -26,21 +26,86 @@
     </div>
 </div>
     
-<div class="lightgrey peta">
-    <p>Exploration</p>
+<div class="lightgrey">
+ <div class="peta">
+    <p class="bold">Exploration</p>
+ </div>
 </div>
     
-<footer class="footer grey island">
-    <div class="grid">
-        <p class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">© 2014 Jupiter Planetary Consortium</p>
-        <nav class="unit unit-s-1 unit-m-1-2 unit-l-1-2">
-            <ul class="nav giga">
-                <li class=" pad-b-1-2"><a href="index.html">Planet</a></li>
-                <li class="pad-b-1-2"><a href="moon.html">Moons</a></li>
-                <li class="pad-b-1-2 push-none"><a href="#">Exploration</a></li>
-            </ul>
-        </nav>
-    </div>            
+    
+<div class="lightgrey island gutter">
+    <div class="peta">   
+        <p class="bold">Join Mars' Exploration Team</p>
+    </div>
+    
+    <div class="lightgrey meta">
+        <p>Are you interested in exploring Mars with a group of extremely talented people? Sign up below!</p>
+    </div>
+ 
+    <form action="thanks.html" method="post">
+
+<div class="form">
+    
+ <div>
+    <label for="name">Name</label>
+    <input  class="field box-width" id="name">
+ </div>
+        
+ <div class="pad-t">
+    <label for="email-addr">E-mail</label>
+    <input class="field box-width" type="email" id="email-addr">
+ </div>
+    
+ <div class="pad-t">
+    <label for="age">Age</label>
+    <input class="field box-width" type="number" id="age" min="9" max="120">
+ </div>
+        
+ <div>
+    <p><em>Your level of awesomeness:</em></p>
+    
+ <span class="radio">
+    <input type="radio" id=“meh” name="awesomeness">
+    <label for="not">Meh…</label>
+ </span>
+     
+<span class="radio">
+    <input type="radio" id=“pretty-good” name="awesomeness">
+    <label for=“pretty-good>Pretty good.</label>
+</span>
+    
+<span class="radio">
+    <input type="radio" id=“super” name=“awesomeness”>
+    <label for=“super”>Super!</label>
+</span>
+    
+ <div class="pad-t">
+     <label for="deserve">Explain why you deserve to go:</label>
+     <textarea class="deserveto" id="deserve"></textarea>
+ </div>
+    
+ <div class="lightgrey island">
+    <button type="submit">Sign up</button>
+ </div>
+        
+</div>
+</form>
+</div>
+</div>
+    
+<footer class="grid island-1-2 grey">
+  <div class="unit micro unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-3" role="contentinfo">
+    <p class="copyright push-0">© 2014 Venus Planetary Consortium · <a href="#top">Top</a></p>
+  </div>
+  <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-2-3">
+    <nav>
+      <ul class="nav nav-footer milli push-0">
+        <li><a href="index.html">Planet</a></li>
+        <li><a href="moons.html">Moons</a></li>
+        <li><a href="exploration.html">Exploration</a></li>
+      </ul>
+    </nav>
+  </div>
 </footer>
 </body>
 </html>
