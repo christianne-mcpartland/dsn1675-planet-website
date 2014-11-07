@@ -9,7 +9,6 @@ html {
   padding: 0;
   box-sizing: border-box;
 
-  font: normal 100%/1.5 sans-serif;
   -moz-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
@@ -80,19 +79,24 @@ h1 {
 }
 
 .grey {
-    background-color: #ccc;
+    background-color: #d0844c;
     overflow: hidden;
 }
 
 .lightgrey {
-    background-color: #e2e2e2;
+    background-color: beige;
     text-align: center;
 }
 
-.lightestg {
-    background-color: #efefef;
-    padding: 2rem;
+.black {
+    background-color: black;
 }
+
+.white {
+    color: white;
+    text-align: center;
+}
+
 
 .leftaligngrey {
     background-color: #e2e2e2;
@@ -114,7 +118,12 @@ h1 {
     display: block;
 }
 
-.nav a:hover {
+.nav a:hover,
+.nav a:focus,
+.nav a:active,
+.nav .nav-current,
+.nav .nav-current:link,
+.nav .nav-current:visited {
     background-color: #0074D9;
     color: white;
 }
@@ -157,6 +166,37 @@ button {
 .radio {
     white-space: nowrap;
 }
+
+.graphic {
+    margin: 0;
+    position: relative;
+}
+
+.graphic-caption {
+    position: absolute;
+    bottom: 0;
+}
+
+.billboard {
+    font-weight: bold;
+    color: white;
+    font-size: 1.25rem;
+    text-align: center;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+}
+
+.header img {
+    float: left;
+    width: 25%;
+    height: 25%;
+    padding: 2%;
+}
+
+.red {
+    color: darkred;
+}
+
 
 @media only screen and (min-width: 25em) {
     
